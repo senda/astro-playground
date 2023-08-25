@@ -1,7 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageSubtitle = "Home Page";
+const pageSubtitle = "Home";
 ---
 <BaseLayout pageSubtitle = {pageSubtitle}>
-
+    <main id="{pageSubtitle}">
+        <section id="intro">
+            <h2>Hello, <strong>world!</strong></h2>
+            <p>My name is <span>Alma</span> and this is my <a href="">Astro</a> playground. </p>
+            <p>You can find the source code for this project in my Github: <a href="https://github.com/senda/astro-playground">senda/astro-playground</a></p>
+        </section>
 </BaseLayout>
